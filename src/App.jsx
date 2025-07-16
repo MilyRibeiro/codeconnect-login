@@ -3,6 +3,8 @@
 // import viteLogo from '/vite.svg'
 import './App.css';
 import BarraDePesquisa from './componentes/BarraDePesquisa';
+import Filtros from './componentes/Filtros';
+import Ordenacao from './componentes/Ordenacao';
 import Sidebar from './componentes/Sidebar';
 
 function App() {
@@ -10,7 +12,11 @@ function App() {
   return (
     <div className='container'>
       <Sidebar />
-      <BarraDePesquisa />
+      <div>
+        <BarraDePesquisa />
+        <Filtros />
+        <Ordenacao />
+      </div>
     </div>
   );
 };
