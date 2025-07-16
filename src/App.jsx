@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css';
 import BarraDePesquisa from './componentes/BarraDePesquisa';
+import Card from './componentes/Card';
 import Filtros from './componentes/Filtros';
 import Ordenacao from './componentes/Ordenacao';
 import Sidebar from './componentes/Sidebar';
@@ -16,6 +17,7 @@ function App() {
         <BarraDePesquisa />
         <Filtros />
         <Ordenacao />
+        <Card />
       </div>
     </div>
   );
